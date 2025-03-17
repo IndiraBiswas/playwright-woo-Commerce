@@ -15,7 +15,7 @@ test('Create a simple WooCommerce product', async ({ page }) => {
         stock: '10',
         categories: ['Electronics'],
         tags: ['test-tag'],
-        image: 'assets/product_test_image.png'
+        image: 'media/Product_image.jpg'
     });
 
     // Verify product in shop
